@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="table.css" />
     <title>Table demo</title>
   </head>
   <body>
@@ -121,8 +122,8 @@
         <th>2nd Column</th>
       </tr>
       <tr height="50px">
-        <td text-align="left">Align left</td>
-        <td text-align="right">Align right</td>
+        <td align="left">Align left</td>
+        <td align="right">Align right</td>
       </tr>
       <tr height="50px">
         <td valign="top">Align top</td>
@@ -131,6 +132,17 @@
       <tr height="50px">
         <td>Default Alignment</td>
         <td align="center">Center Alignment</td>
+      </tr>
+    </table>
+    <hr />
+    <p>
+      Cell spacing and cell padding: Padding applied to first heading, not
+      applied to second
+    </p>
+    <table id="last-table" border="5px">
+      <tr>
+        <th id="padding">Name</th>
+        <th>USN</th>
       </tr>
     </table>
   </body>
