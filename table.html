@@ -1,25 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table demo</title>
-</head>
-<body>
-    <table>
-        <tr>
-            <th>number</th>
-            <th>name</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Anu</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Chitra</td>
-        </tr>
+  </head>
+  <body>
+    <table border="5px">
+      <tr>
+        <th>number</th>
+        <th>name</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Anu</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Chitra</td>
+      </tr>
     </table>
-</body>
+    <hr />
+    <!-- Why no brder is coming , specified border attribute then it came but why is it in red color-->
+    <p>table heading</p>
+    <table border="border">
+      <tr>
+        <th>Name</th>
+        <th>USN</th>
+      </tr>
+      <tr>
+        <td>Anu</td>
+        <td>1RV19CS109</td>
+      </tr>
+      <tr>
+        <td>Monika</td>
+        <td>1RV19IS027</td>
+      </tr>
+    </table>
+    <hr />
+    <p>Row heading</p>
+    <table border="3px">
+      <tr>
+        <th>Name</th>
+        <td>Anu</td>
+        <td>1RV19CS019</td>
+      </tr>
+      <tr>
+        <th>USN</th>
+        <td>Monika</td>
+        <td>1RV19IS027</td>
+      </tr>
+    </table>
+    <hr />
+    <p>Both row and column heading</p>
+    <table border="3px">
+      <tr>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <th>1</th>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>JS</td>
+      </tr>
+      <tr>
+        <th>2</th>
+        <td>React</td>
+        <td>Node</td>
+        <td>Next</td>
+      </tr>
+      <tr>
+        <th>3</th>
+        <td>Java</td>
+        <td>C</td>
+        <td>Python</td>
+      </tr>
+    </table>
+    <hr />
+    <p>Row span</p>
+    <table border="3px">
+      <tr>
+        <th>Name</th>
+        <td>Anu</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Phone</th>
+        <td>8296177216</td>
+      </tr>
+      <tr>
+        <td>9019673805</td>
+      </tr>
+    </table>
+    <hr />
+    <p>Column span</p>
+    <table border="2px">
+      <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jacob</td>
+        <td>James</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <td>Sheldon</td>
+        <td>Cooper</td>
+        <td>22</td>
+      </tr>
+    </table>
+    <hr />
+    <p>Alignment of the text with in the cell</p>
+    <table border="3px" width="70%">
+      <tr height="50px">
+        <th>1st Column</th>
+        <th>2nd Column</th>
+      </tr>
+      <tr height="50px">
+        <td text-align="left">Align left</td>
+        <td text-align="right">Align right</td>
+      </tr>
+      <tr height="50px">
+        <td valign="top">Align top</td>
+        <td valign="bottom">Align bottom</td>
+      </tr>
+      <tr height="50px">
+        <td>Default Alignment</td>
+        <td align="center">Center Alignment</td>
+      </tr>
+    </table>
+  </body>
 </html>
