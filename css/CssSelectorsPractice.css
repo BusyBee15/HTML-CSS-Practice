@@ -1,0 +1,12 @@
+.one{
+    color: aqua;
+    background-color: darkmagenta;
+}
+.two{
+    color: coral;
+    background-color: azure;
+}
+#InlineText{
+    color: darkblue;
+    text-transform: uppercase;
+}

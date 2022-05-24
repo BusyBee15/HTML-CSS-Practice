@@ -1,0 +1,17 @@
+/* th,
+td {
+    padding: 15px;
+} */
+#last-table{
+   border-spacing: 10px;
+}
+
+#padding{
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    /* border-spacing: 30px; */
+    /* you can't see border-spacing when you have applied above attribute */
+}
