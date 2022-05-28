@@ -1,0 +1,52 @@
+#Colorfirst{
+    color: crimson;
+    background-color:aqua;
+}
+#Colorsecond{
+color: red;
+background: yellow;
+}
+#Colorthird{
+    color: rgb(25,90,87);
+    background:rgba(186, 156, 74, 0.628);
+}
+#Colorfourth{
+    color: rgba(255,0,0,0.7);
+    background: rgba(24,89,67,0.8);
+    background: rgb(169, 146, 151);
+    color: #112233;
+}
+body{
+    /* This color is nice */
+    /* background: rgb(100,65,80); */
+    background: rgba(80,60,70,0.87);
+
+}
+#Unitone{
+    font-size: 60px;
+    width: 300px;
+    height: 300px;
+    background: rgba(88, 3, 127, 0.8);
+}
+#Unitdivone{
+    width: 300px;
+    height: 300px;
+    background: rgba(186, 156, 74, 0.628);
+}
+#Unitdivtwo{
+    width: 50%;
+    height: 50%;
+    background: rgb(25,90,87);
+}
+#Unitem{
+    font-size: 2em;
+}
+#Unitemtwo{
+    font-size: 32px;
+}
+#Unitdivthree{
+    font-size: 40px;
+}
+#Unitptwo{
+    font-size: 2em;
+}
