@@ -1,6 +1,10 @@
 .one{
-    color: aqua;
-    background-color: darkmagenta;
+    color:brown;
+    /* background-color: darkmagenta; */
+    font-size: large;
+    line-height: 1.5;
+    font-family: monospace;
+    border:3px solid black;
 }
 .two{
     color: coral;

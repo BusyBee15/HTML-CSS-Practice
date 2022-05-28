@@ -1,0 +1,15 @@
+.firstp {
+    background-color: mediumseagreen;
+    font-family: monospace;
+}
+.firstdiv{
+    background-color: bisque;
+    color: brown;
+    background-color: aqua;
+}
+p{
+   background-color: cornsilk; 
+}
+*{
+    background-color: darkgoldenrod;
+}
