@@ -50,3 +50,18 @@ body{
 #Unitptwo{
     font-size: 2em;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background: rgb(202, 71, 99);
+    height: 100vh;
+    width: 100vw;
+}
+.about{
+    background: rgba(24,89,67,0.8);
+    height: 34vh;
+    width: 45vw;
+}
