@@ -1,0 +1,24 @@
+/* To remove default broswer margin */
+*{
+    margin: 0;
+}
+.navbar{
+    background: rgb(228, 82, 123);
+    font-size: 30px;
+    color: azure;
+    height: 100px;
+}
+.banner{
+    background: rgba(11, 136, 126, 0.713);
+    min-height: calc(100vh - 100px)
+}
+.par{
+    width: 50%;
+}
+.example{
+   background: rgba(52, 194, 99, 0.693);
+   width: 30rem;
+   height: 10rem;
+   overflow: scroll;
+ 
+}
