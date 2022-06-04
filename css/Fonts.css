@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inconsolata:wght@300&display=swap'); */
+
+body{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+    background: rgba(7, 172, 158, 0.776);
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
+}
+.main-heading{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+
+}
+.one{
+    font-weight:bold;
+}
+.two{
+    font-weight:lighter;
+    text-align: left;
+}
