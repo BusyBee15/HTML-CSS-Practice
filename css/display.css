@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+}
+.block {
+    background: blueviolet;
+    color: aliceblue;
+    width: 300px;
+    margin: 2px auto;
+    /* margin-left: auto; */
+    /* display: inline; */
+}
+
+.inline {
+    background: palevioletred;
+    color: blue;
+    /* display: block; */
+}
+
+.check {
+    background: pink;
+    color: brown;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    /* text-align: left; This is not working why */
+}
