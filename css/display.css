@@ -25,3 +25,40 @@ body {
     margin-bottom: 200px;
     /* text-align: left; This is not working why */
 }
+
+/* Inline block */
+.iblock {
+    background: gold;
+    color: red;
+    width: 40px;
+    height: 40px;
+    margin: 40px 40px;
+    display: inline-block;
+}
+
+.tank p{
+    background: gray;
+    margin: 20px;
+    width: 500px;
+}
+
+.none {
+    display: none;
+}
+
+.opacity-1 {
+    opacity: 1;
+    /* Nothing's gonna change */
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.visibility {
+    visibility: hidden;
+}
