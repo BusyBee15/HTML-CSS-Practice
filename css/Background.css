@@ -1,7 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 div {
-    height: 300px;
-    color: white;
+    min-height: 100vh;
+    color:white;
     border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .big-image {
@@ -10,14 +20,31 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+}
+
+.one-one {
+    background:url("../images-videos/bg1.jpg");
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 }
 
 .small-image {
-    background: url("../images-videos/bg1.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url("../images-videos/bg1.jpg");
     /* background-repeat: space;
     background-repeat: repeat-x;
     background-repeat: repeat-y; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    /* background-attachment: fixed; */
+}
+
+.one {
+    background: linear-gradient(to bottom left, purple 50%, pink, blue);
+}
+
+.two {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0));
 }
