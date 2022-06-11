@@ -15,19 +15,19 @@ div {
 }
 
 .big-image {
-    background: url("../images-videos/bg3.jpg");
+    background: url("../images-videos/bg3.jpg") center/cover fixed no-repeat ;
     /* background-repeat: round; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .one-one {
     background:url("../images-videos/bg1.jpg");
     background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .small-image {
